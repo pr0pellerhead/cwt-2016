@@ -1,0 +1,28 @@
+p {
+	color: red; /*text color*/
+	font-size: 60px; /*text size*/
+	font-weight: bold; /*make text bold*/
+	font-style: italic; /*make text italic*/
+	text-decoration: underline; /*make text underlined*/
+	text-transform: uppercase; /*make all letters uppercase*/
+}
+
+.normal-text {
+	color: black;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+
+	background-color: yellow;
+}
+
+.link {
+	font-family: comic sans ms, Arial, Helvetica, sans-serif;
+}
+
+#sample-text {
+	word-spacing: 30px;
+	letter-spacing: 10px;
+}
