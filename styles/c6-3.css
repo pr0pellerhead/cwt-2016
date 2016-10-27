@@ -14,7 +14,7 @@
 	width: 70%;
 	float: left;
 	background-color: cyan;
-	min-height: 100px;
+	/*min-height: 100px;*/
 	padding: 5px;
 }
 
@@ -32,6 +32,7 @@
 	.column-left .second {
 		width: calc(30% - 10px);
 		background-color: green;	
+		border: 10px solid white;
 	}
 
 	.column-left .third {
