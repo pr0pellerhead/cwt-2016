@@ -1,0 +1,34 @@
+.header {
+	width: 100%;
+	height: 60px;
+	background-color: black;
+}
+
+.left {
+	border: 10px dotted black;
+	box-sizing: border-box;
+}
+
+.main {
+
+}
+
+	.main > div {
+		height: 100px;
+		float: left;
+	}
+
+	.main .left.twin {
+		background-color: red;
+		width: 20%;
+	}
+
+	.main .center {
+		background-color: green;
+		width: 60%;
+	}
+
+	.main .right {
+		background-color: blue;
+		width: 20%;
+	}
