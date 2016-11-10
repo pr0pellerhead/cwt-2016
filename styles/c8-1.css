@@ -1,0 +1,110 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	background-color: black;
+}
+
+.calendar-widget {
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	border-radius: 2px;
+	margin: 10px;
+}
+
+	.calendar-widget header {
+		height: 30px;
+		background-color: gray;
+		text-align: center;
+		box-sizing: border-box;
+		padding-top: 3px;
+	}
+
+		.calendar-widget header .month {
+			font-size: 13px;
+			text-transform: uppercase;
+		}
+
+		.calendar-widget header button {
+			background-color: transparent;
+			border: none;
+			margin: 0 15px;
+			cursor: pointer;
+		}
+
+
+
+	.calendar-widget .body {
+		box-sizing: border-box;
+		padding: 10px;
+	}
+
+		.calendar-widget .body ul {
+			
+		}
+
+			.calendar-widget .body ul li {
+				float: left;
+				font-size: 12px;
+				width: calc(180px / 7);
+				text-align: center;
+				height: 25px;
+			}
+
+			.calendar-widget .body ul li.header {
+				font-weight: bold;
+				font-size: 10px;
+				text-transform: uppercase;
+			}
+
+			.calendar-widget .body ul li.days {
+				
+			}
+
+			.calendar-widget .body ul li.next-month {
+				opacity: .5;
+			}
+
+			.calendar-widget .body ul li.selected {
+				background-color: silver;
+				font-weight: bold;
+			}
+
+.weather-widget {
+	width: 200px;
+	height: 400px;
+	background-color: white;
+	border-radius: 3px;
+	margin: 10px;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+	.weather-widget .icon {
+		display: block;
+		width: 150px;
+		margin: 20px auto 0px auto;
+	}
+
+		.weather-widget .icon img {
+			width: 100%;
+		}
+
+	.weather-widget .temperature {
+		display: block;
+		text-align: center;
+		font-size: 60px;
+		margin-bottom: 20px;
+	}
+
+	.weather-widget .location {
+		display: block;
+		text-align: center;
+		font-size: 30px;
+		font-weight: 200;
+	}
